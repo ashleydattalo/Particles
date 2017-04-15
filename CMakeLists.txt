@@ -40,7 +40,7 @@ add_custom_target(run
 include_directories(${CMAKE_PROJECT_NAME} ${CMAKE_SOURCE_DIR}/src)
 include_directories(${CMAKE_PROJECT_NAME} ${CMAKE_SOURCE_DIR}/src/imgui)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/../cmake/modules/")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/Users/ashleydattalo/cmake/modules/")
 find_package(GLFW REQUIRED)
 if (GLFW_FOUND)
     include_directories(${CMAKE_PROJECT_NAME} ${GLFW_INCLUDE_DIR})
